@@ -1,0 +1,76 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar-logo img {
+  height: 65px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+  font-size: 0.5 rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.navbar-links-home {
+  cursor: pointer;
+  color: #ED1D24;
+  font-weight: 700;
+}
+.navbar-links-home:hover {
+  cursor: pointer;
+  color: #ED1D24
+}
+
+.navbar-links-characters:hover {
+  cursor: pointer;
+  color: #ED1D24
+}
+.navbar-links-tvshows:hover {
+  cursor: pointer;
+  color: #ED1D24
+}
+.navbar-links-more:hover {
+  cursor: pointer;
+  color: #ED1D24
+}
+  
+
+.navbar-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.login-button {
+  background-color: #d32f2f;
+  color: #fff;
+  width: 120px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.search {
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #b71c1c;
+}
